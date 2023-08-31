@@ -1,0 +1,69 @@
+.furn{
+    background-image: url(../assets/furn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bask{
+    background-image: url(../assets/bask.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-image h2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    padding-top: 22%;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1.5;
+}
+.textOnimages a{
+    color: #000;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.products .container{
+    margin: 0 auto;
+}
+.line::after{
+    content: "";
+    border: 1px solid #000;
+    display: inline-block;
+    justify-content: center;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.line:hover{
+    opacity: 0.5;
+}
+@media(max-width:500px){
+.product-image{
+    height: 250px;
+    width: 95%;
+    margin: 20px auto 0;
+}
+
+.breakoutpoint{
+    content: "\a";
+    white-space: pre;
+    text-align: center;
+}
+}
+@media(min-width:601px){
+    .products .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+        height: 250px;
+        width: 95%;
+    }
+    .product-image h2{
+        padding-top: 18%;
+        
+    }
+}
