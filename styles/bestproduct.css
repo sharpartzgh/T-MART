@@ -1,0 +1,99 @@
+.bestproduct h2{
+    text-align: center;
+    margin: 20px auto;
+}
+.items p{
+    margin-top: 20px;
+}
+.bestproduct .container{
+    margin: 0 auto;
+    width: 98%;
+}
+ /* all product */
+
+.item1{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background: linear-gradient(rgba(0, 0, 0,0.5 ), rgba(0, 0, 0, 0.5)), url(../assets/pr8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.items{
+    height: 320px;
+    width: 95%;
+    margin: 20px auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1.2;
+}
+
+/* main styling for the items */
+/* for mobile*/
+@media(max-width:540px){
+    .bestproduct .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+/* for tablets */
+@media(min-width:601px) and (max-width:899px){
+    .bestproduct .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+/* for laptops */
+@media(min-width:900px){
+    .bestproduct .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
