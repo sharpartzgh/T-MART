@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/products.css">
     <link rel="stylesheet" href="./styles/bestproduct.css">
+    <link rel="stylesheet" href="./styles/recentnews.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <!-- css files up-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,10 +29,10 @@
             <!-- adding navigation here -->
             <div class="navmenu">
                 <ul>
-                    <li><a href="">Potfolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#Potfolio">Potfolio</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Shop">Shop</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -44,7 +46,7 @@
         <div class="NewProduct">
             <div class="main-heading">
                 <h1>New Product Collection</h1>
-                <a href="#">SHOP NOW</a>
+                <a href="#Shop">SHOP NOW</a>
             </div>
         </div>   
         <div class="transparent"></div> 
@@ -52,7 +54,7 @@
 
     <!-- the two images right below the hero section -->
 
-    <section class="products">
+    <section id="Shop" class="products">
         <div class="container">
             <div class="product-image furn">
                 <h2>New Furniture <span class="breakoutpoint">Collection</span></h2>
@@ -70,7 +72,7 @@
     </section>
 <!-- main container to house the items or products-->
     <!-- Best Product Section -->
-    <section class="bestproduct">
+    <div id="Potfolio" class="bestproduct">
         <h2>Best Products</h2>
         <div class="container"> 
             <div class="items item1">
@@ -121,13 +123,71 @@
                     <p>$ 234.26</p>
                 </div>
             </div>
-            
         </div>
+    </div>
 
+    <!-- Recent News Section -->
+
+    <section id="Blog" class="recentnews">
+        <h2>Recent News</h2>
+        <div class="container">
+             <div class="date-image rn1">
+                <p class="size">20 <br><span class="size2">MAY</span></p>
+                <div class="info">
+                    <p>How to Optimize Your eCommerce Store <br> for Better Coversions</p>
+                    <a href="#" class="line">READ MORE</a>
+                </div>
+            </div>
+            <div class="date-image rn2">
+                <p class="size">13 <br><span class="size2">MAY</span></p>
+                <div class="info">
+                    <p>Understanding and Implementing SEO  <br> for eCommerce Success</p>
+                    <a href="#" class="line" >READ MORE</a>
+                </div>
+            </div>
+            <div class="date-image rn3">
+                <p class="size">04 <br><span class="size2">MAY</span></p>
+                <div class="info">
+                    <p>Effective Email Marketing Strategies for  <br> eCommerce Businesses</p>
+                    <a href="#" class="line">READ MORE</a>
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
-
-
-
+    <footer id="Contact" class="footer">
+        <div class="container">
+            <div class="logo2">
+                <img src="./assets/logo.png" alt="">
+                <div class="footerContacts">
+                    <i data-feather="map-pin"></i>
+                    <p>194 Main Rd T, FS Rayed, USA</p>
+                </div>
+                <div class="footerContacts">
+                    <i data-feather="mail"></i>
+                    <p>info@tmart.org</p>
+                </div>
+                <div class="footerContacts">
+                    <i data-feather="phone-call"></i>
+                    <p>+233 244 244 244</p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <p>Subscribe to our newsletter and get 10% <br> off your first purchase</p>
+                <div class="form">
+                    <form action="get" class="mail">
+                        <input type="email" placeholder="Enter email address" required>
+                        <i data-feather="chevron-right" class="chevron"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="copyright">
+        <hr>
+        &copy; Tmart - All rights reserved
+        </section>
+    </footer>
+        
     <script>
         feather.replace()
 

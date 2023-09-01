@@ -7,6 +7,7 @@
 }
 .bestproduct .container{
     margin: 0 auto;
+    width: 98%;
 }
  /* all product */
 
@@ -78,7 +79,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-        width: 95%;
     }
 }
 /* for tablets */
@@ -86,9 +86,7 @@
     .bestproduct .container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        height: 250px;
-        width: 95%;
+        gap: 10px;
     }
 }
 /* for laptops */
@@ -97,6 +95,5 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
-        width: 95%;
     }
 }
