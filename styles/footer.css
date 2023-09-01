@@ -13,7 +13,7 @@
 }
 
 .footer .subscribe{
-    padding: 25px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     width: 98%;
@@ -21,8 +21,9 @@
 .form input{
     width: 90%;
     height: 30px;
-    /* padding: 10px; */
+    padding: 10px;
 }
+
 .subscribe p{
     margin-bottom: 20px;
 }
@@ -40,6 +41,10 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 2px;
     }
+    .footer .subscribe{
+        margin: 0 auto;
+        width: 82%;
+    }
 }
 
 /* for tablets */
@@ -51,6 +56,12 @@
         align-items: center;
         height: 260px;
     }
+    
+    .footer .subscribe{
+        padding-top: 82px;
+        margin: 0 auto;
+        width: 82%;
+    }
 }
 /* for laptops */
 @media(min-width:900px){
@@ -58,28 +69,27 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
-        height: 240px;
+        height: 200px;
     }
     .copyright{
         background-color: #EFEFEF;
         font-size: 20px;
     }
+    .footer .subscribe{
+        padding-top: 85px;
+}
 }
 
 /* Copyright Section */
 .copyright{
     background-color: #EFEFEF;
     font-size: 18px;
-    padding-left: 30px;
+    padding: 30px;
 }
 .copyright hr{
-    /* padding-bottom: 10px; */
-    margin: 0 auto;
+    margin: 20px auto;
     padding-left: 30px;
     justify-content: center;
-}
-.copyright{
-    padding: 15px;
 }
 .copyright .terms{
     margin-left: 20px;
