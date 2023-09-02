@@ -14,7 +14,7 @@ To use this project, simply clone the repository and open the index.html file in
 
 ```sh
 
-git clone https://github.com/sharpartzgh/Flexbox.git
+git clone https://sharpartzgh.github.io/Project-C4-Group3/
 
 ```
 
