@@ -1,5 +1,5 @@
 # Final Project Work HTML & CSS
-- This project is a pricing table built using flexbox.
+- This project is a responsive eCommerse website using HTML & CSS.
 
 ## 📗 Table of Contents
 - Installation
